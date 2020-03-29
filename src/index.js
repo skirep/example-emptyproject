@@ -1,3 +1,3 @@
 import './style.scss';
 
-console.log("hello world from CI");
+console.log("Hello world from CI");
