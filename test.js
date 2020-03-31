@@ -17,7 +17,7 @@ const {
   }
   
   async function run() {
-    await client.url('http://localhost:8080/');
+    await client.url('https://first-skirep-example-200322.firebaseapp.com/');
     let title;
     await client.getTitle(t => (title = t));
     await client.assert.title('Hello Title');

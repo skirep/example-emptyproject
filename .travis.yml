@@ -11,6 +11,7 @@ script:
   - npm run build 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
+  - npm run test
 notifications:
   email: skirep@gmail.com
   on_failure: always
